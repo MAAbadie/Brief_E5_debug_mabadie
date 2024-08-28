@@ -1,0 +1,305 @@
+2024-08-27 09:41:43,068 - WARNING -  * Debugger is active!
+2024-08-27 09:41:43,078 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 09:42:43,972 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 09:42:44,589 - INFO -  * Restarting with stat
+2024-08-27 09:42:58,811 - WARNING -  * Debugger is active!
+2024-08-27 09:42:58,821 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 09:43:05,945 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 09:43:06,953 - INFO -  * Restarting with stat
+2024-08-27 09:43:13,370 - WARNING -  * Debugger is active!
+2024-08-27 09:43:13,382 - INFO -  * Debugger PIN: 812-978-696
+2024-08-27 09:43:16,374 - INFO - 127.0.0.1 - - [27/Aug/2024 09:43:16] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-08-27 09:43:16,668 - INFO - 127.0.0.1 - - [27/Aug/2024 09:43:16] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-08-27 09:43:16,669 - INFO - 127.0.0.1 - - [27/Aug/2024 09:43:16] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-08-27 09:43:16,697 - INFO - 127.0.0.1 - - [27/Aug/2024 09:43:16] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Tkr8kAHJvgMrS5QflibZ HTTP/1.1" 200 -
+2024-08-27 09:43:16,706 - INFO - 127.0.0.1 - - [27/Aug/2024 09:43:16] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-08-27 09:50:32,638 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 09:50:33,288 - INFO -  * Restarting with stat
+2024-08-27 09:50:44,242 - WARNING -  * Debugger is active!
+2024-08-27 09:50:44,251 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 09:51:03,485 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 09:51:04,113 - INFO -  * Restarting with stat
+2024-08-27 09:51:15,135 - WARNING -  * Debugger is active!
+2024-08-27 09:51:15,146 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 09:51:37,451 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 09:51:38,079 - INFO -  * Restarting with stat
+2024-08-27 09:51:49,688 - WARNING -  * Debugger is active!
+2024-08-27 09:51:49,696 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 09:51:50,724 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 09:51:51,308 - INFO -  * Restarting with stat
+2024-08-27 09:51:57,464 - WARNING -  * Debugger is active!
+2024-08-27 09:51:57,473 - INFO -  * Debugger PIN: 812-978-696
+2024-08-27 09:53:58,849 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 09:53:59,406 - INFO -  * Restarting with stat
+2024-08-27 09:54:26,667 - ERROR - Error while scraping data from https://data.ennesmetropole.fr/api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000011660537990>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000011660537990>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\Documents\Briefs\Brief_E5_DEBUG\Brief_E5_debug_mabadie\rennes_traffic_ko-main\src\get_data.py", line 18, in __init__
+    response = requests.get(self.url)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000011660537990>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+2024-08-27 09:54:26,730 - WARNING -  * Debugger is active!
+2024-08-27 09:54:26,738 - INFO -  * Debugger PIN: 812-978-696
+2024-08-27 09:54:58,162 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 09:54:58,800 - INFO -  * Restarting with stat
+2024-08-27 09:55:25,612 - ERROR - Error while scraping data from https://data.ennesmetropole.fr/api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x000001FFA8E97750>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFA8E97750>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\Documents\Briefs\Brief_E5_DEBUG\Brief_E5_debug_mabadie\rennes_traffic_ko-main\src\get_data.py", line 18, in __init__
+    response = requests.get(self.url)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001FFA8E97750>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+2024-08-27 09:55:25,651 - WARNING -  * Debugger is active!
+2024-08-27 09:55:25,663 - INFO -  * Debugger PIN: 812-978-696
+2024-08-27 09:58:44,458 - INFO - 127.0.0.1 - - [27/Aug/2024 09:58:44] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2024-08-27 09:58:44,598 - INFO - 127.0.0.1 - - [27/Aug/2024 09:58:44] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-08-27 09:58:44,599 - INFO - 127.0.0.1 - - [27/Aug/2024 09:58:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-08-27 09:58:44,618 - INFO - 127.0.0.1 - - [27/Aug/2024 09:58:44] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=y02NDlEecuKrm2qzV78B HTTP/1.1" 200 -
+2024-08-27 09:58:44,633 - INFO - 127.0.0.1 - - [27/Aug/2024 09:58:44] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-08-27 10:02:35,893 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 10:02:36,459 - INFO -  * Restarting with stat
+2024-08-27 10:03:03,116 - ERROR - Error while scraping data from https://data.ennesmetropole.fr/api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise ConnectTimeoutError(
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.HTTPSConnection object at 0x0000013CFD9B97D0>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013CFD9B97D0>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Utilisateur\Documents\Briefs\Brief_E5_DEBUG\Brief_E5_debug_mabadie\rennes_traffic_ko-main\src\get_data.py", line 18, in __init__
+    response = requests.get(self.url)
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Utilisateur\anaconda3\envs\rennes_traffic_ko\Lib\site-packages\requests\adapters.py", line 688, in send
+    raise ConnectTimeout(e, request=request)
+requests.exceptions.ConnectTimeout: HTTPSConnectionPool(host='data.ennesmetropole.fr', port=443): Max retries exceeded with url: /api/explore/v2.1/catalog/datasets/etat-du-trafic-en-temps-reel/exports/json?lang=fr&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000013CFD9B97D0>, 'Connection to data.ennesmetropole.fr timed out. (connect timeout=None)'))
+2024-08-27 10:03:03,262 - WARNING -  * Debugger is active!
+2024-08-27 10:03:03,271 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:03:50,654 - INFO - 127.0.0.1 - - [27/Aug/2024 10:03:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-08-27 10:03:50,805 - INFO - 127.0.0.1 - - [27/Aug/2024 10:03:50] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-08-27 10:03:50,805 - INFO - 127.0.0.1 - - [27/Aug/2024 10:03:50] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-08-27 10:03:50,838 - INFO - 127.0.0.1 - - [27/Aug/2024 10:03:50] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=9PkUmPHIe58qymJ8SDuB HTTP/1.1" 200 -
+2024-08-27 10:08:25,315 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 10:08:25,857 - INFO -  * Restarting with stat
+2024-08-27 10:08:31,637 - WARNING -  * Debugger is active!
+2024-08-27 10:08:31,646 - INFO -  * Debugger PIN: 812-978-696
+2024-08-27 10:08:38,775 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:08:39,453 - INFO -  * Restarting with stat
+2024-08-27 10:08:52,859 - WARNING -  * Debugger is active!
+2024-08-27 10:08:52,868 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:09:43,584 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\src\\get_data.py', reloading
+2024-08-27 10:09:44,210 - INFO -  * Restarting with stat
+2024-08-27 10:09:58,592 - WARNING -  * Debugger is active!
+2024-08-27 10:09:58,603 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:11:14,087 - INFO - 127.0.0.1 - - [27/Aug/2024 10:11:14] "POST / HTTP/1.1" 200 -
+2024-08-27 10:14:40,158 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:14:40,884 - INFO -  * Restarting with stat
+2024-08-27 10:15:21,403 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 10:15:21,403 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 10:16:43,079 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 10:16:43,079 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 10:16:43,081 - INFO -  * Restarting with stat
+2024-08-27 10:16:53,486 - WARNING -  * Debugger is active!
+2024-08-27 10:16:53,494 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:39:16,137 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:39:16,736 - INFO -  * Restarting with stat
+2024-08-27 10:39:29,628 - WARNING -  * Debugger is active!
+2024-08-27 10:39:29,637 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:40:49,688 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:40:50,249 - INFO -  * Restarting with stat
+2024-08-27 10:41:04,152 - WARNING -  * Debugger is active!
+2024-08-27 10:41:04,160 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:41:12,298 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:41:12,884 - INFO -  * Restarting with stat
+2024-08-27 10:41:36,141 - WARNING -  * Debugger is active!
+2024-08-27 10:41:36,150 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:41:48,305 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:41:49,046 - INFO -  * Restarting with stat
+2024-08-27 10:42:04,245 - WARNING -  * Debugger is active!
+2024-08-27 10:42:04,253 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:42:25,604 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:42:26,357 - INFO -  * Restarting with stat
+2024-08-27 10:42:40,994 - WARNING -  * Debugger is active!
+2024-08-27 10:42:41,002 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 10:43:58,046 - INFO -  * Detected change in 'C:\\Users\\Utilisateur\\Documents\\Briefs\\Brief_E5_DEBUG\\Brief_E5_debug_mabadie\\rennes_traffic_ko-main\\app.py', reloading
+2024-08-27 10:43:58,810 - INFO -  * Restarting with stat
+2024-08-27 11:05:49,531 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 11:05:49,531 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 11:05:49,535 - INFO -  * Restarting with stat
+2024-08-27 11:06:02,455 - WARNING -  * Debugger is active!
+2024-08-27 11:06:02,465 - INFO -  * Debugger PIN: 617-330-475
+2024-08-27 11:06:47,202 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-08-27 11:06:47,202 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-27 11:06:47,205 - INFO -  * Restarting with stat
+2024-08-27 11:06:58,737 - WARNING -  * Debugger is active!
+2024-08-27 11:06:58,745 - INFO -  * Debugger PIN: 617-330-475
